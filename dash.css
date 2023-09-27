@@ -1,0 +1,453 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+}
+.admin {
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    border-radius: 10px 0 0 10px;
+    background-image:linear-gradient(#e2d8fe,white);
+}
+.admin .img {
+    position: absolute;
+    top: 10%;
+    left: 30%;
+}
+.admin h2 {
+    position: absolute;
+    top: 24%;
+    left: 25%;
+    color: #645f66;
+}
+.admin h1 {
+    position: absolute;
+    left: 27%;
+    top: 3.5%;
+    color: #645f66;
+}
+.admin .btn1 {
+    position: absolute;
+    top: 33%;
+    left: 20%;
+    font-size: 20px;
+    background-color: transparent;
+    border: 0;
+    color: #645f66;
+}
+.admin .bt2 {
+    position: absolute;
+    top: 39%;
+    left: 20%;
+    font-size: 20px;
+    background-color: transparent;
+    border: 0;
+    color: #645f66;
+}
+.admin .btn3 {
+    position: absolute;
+    top: 45%;
+    left: 20%;
+    font-size: 20px;
+    background-color: transparent;
+    border: 0;
+    color: #7e61ee;
+}
+.admin .img2 {
+    position: absolute;
+    top: 32%;
+    left: 5%;
+    width: 10%;
+}
+.admin .img3 {
+    position: absolute;
+    top: 38.5%;
+    left: 5%;
+    width: 10%;
+}
+.admin .img4 {
+    position: absolute;
+    top: 44%;
+    left: 5%;
+    width: 10%;
+}
+.admin .img5 {
+    position: absolute;
+    left:10%;
+    top: 2%;
+}
+.header {
+    position:absolute;
+    top: 3%;
+    left: 28%;
+    font-size: 26px;
+    color: #645f66;
+}
+.container {
+    position: absolute;
+    left: 26%;
+    top: 15%;
+    width: 70%;
+    height: 15%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    border-radius: 10px;
+}
+.totaluser h3 {
+    position: absolute;
+    left: 13%;
+    top: 70%;
+    color: #645f66;
+}
+.totaluser h2 {
+    position: absolute;
+    left: 15%;
+    top: 25%;
+    font-size: 35px;
+    color: #5a92ff;
+}
+.admin2 h3 {
+    position: absolute;
+    left: 33%;
+    top: 70%;
+    color: #645f66;
+}
+.admin2 h2 {
+    position: absolute;
+    left:  35%;
+    top: 25%;
+    font-size: 35px;
+    color:#ff5454;
+}
+.support h3 {
+    position: absolute;
+    left: 55%;
+    top: 70%;
+    color: #645f66;
+}
+.support h2 {
+    position: absolute;
+    left: 57%;
+    top: 25%;
+    font-size: 35px;
+    color: #ffb13b;
+}
+.viewer h3 {
+    position: absolute;
+    left: 75%;
+    top: 70%;
+    color: #645f66;
+}
+.viewer h2 {
+    position: absolute;
+    left: 77%;
+    top: 25%;
+    font-size: 35px;
+    color: #3ec975;
+}
+.table {
+    position: absolute;
+    left: 26%;
+    top: 35%;
+    width: 71%;
+    height: 40%;
+    border-collapse: collapse;
+}
+th, td {
+    height: 50px;
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #DDD;
+  }
+.active1 {
+    box-sizing: border-box;
+    height: 0.5%;
+    width: 0.5%;
+    border-radius: 20px;
+    color: #3dc944;
+    background-color: #def9c9;
+}
+.active2 {
+    box-sizing: border-box;
+   width: 0.5%;
+   height: 1%;
+    border-radius: 20px;
+    color: #3dc944;
+    background-color: #def9c9;
+}
+.disable1 {
+    box-sizing: border-box;
+    height: 0.5%;
+    width: 0.5%;
+    border-radius: 20px;
+    color: #a3a3a3;
+    background-color: #e6e6e6;
+}
+.active3 {
+    box-sizing: border-box;
+    height: 0.5%;
+    width: 0.5%;
+    border-radius: 20px;
+    color: #3dc944;
+    background-color: #def9c9;
+}
+.active4 {
+    box-sizing: border-box;
+    height: 0.5%;
+    width: 0.5%;
+    border-radius: 20px;
+    color: #3dc944;
+    background-color: #def9c9;
+}
+.disable2 {
+    box-sizing: border-box;
+    height: 0.5%;
+    width: 0.5%;
+    border-radius: 20px;
+    color: #a3a3a3;
+    background-color: #e6e6e6;
+}
+.active5 {
+    box-sizing: border-box;
+    height: 0.5%;
+    width: 0.5%;
+    border-radius: 20px;
+    color: #3dc944;
+    background-color: #def9c9;
+}
+.active6 {
+    box-sizing: border-box;
+    height: 0.5%;
+    width: 0.5%;
+    border-radius: 20px;
+    color: #3dc944;
+    background-color: #def9c9;
+}
+.disable3 {
+    box-sizing: border-box;
+    height: 0.5%;
+    width: 0.5%;
+    border-radius: 20px;
+    color: #a3a3a3;
+    background-color: #e6e6e6;
+}
+.active7 {
+    box-sizing: border-box;
+    height: 0.5%;
+    width: 0.5%;
+    border-radius: 20px;
+    color: #3dc944;
+    background-color: #def9c9;
+}
+@media screen and (max-width: 650px) {
+    * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+    
+    body {
+        width: 100%;
+        height: 100%;
+    }
+    .admin {
+        position: absolute;
+        width: 25%;
+        height: 100%;
+        width: 15%;
+    }
+    .admin .img {
+        position: absolute;
+        top: 10%;
+        left: 6%;
+        visibility: hidden;
+    }
+    .admin h2 {
+        position: absolute;
+        top: 21%;
+        left: 19%;
+        visibility: hidden;
+    }
+    .admin h1 {
+        position: absolute;
+        left: 10%;
+        top: 6%;
+        font-size: 23px;
+        visibility: hidden;
+    }
+    .admin .btn1 {
+        position: absolute;
+        top: 29%;
+        left: 40%;
+        font-size: 18px;
+        visibility: hidden;
+    }
+    .admin .bt2 {
+        position: absolute;
+        top: 32%;
+        left: 30%;
+        font-size: 18px;
+        visibility: hidden;
+    }
+    .admin .btn3 {
+        position: absolute;
+        top: 40%;
+        left: 27%;
+        font-size: 18px;
+       visibility: hidden;
+    }
+    .admin .img2 {
+        position: absolute;
+        top: 15%;
+        left: 25%;
+        width: 50%;
+        color: transparent;
+    }
+    .admin .img3 {
+        position: absolute;
+        top: 20%;
+        left: 25%;
+        width: 50%;
+        color: transparent;
+    }
+    .admin .img4 {
+        position: absolute;
+        top: 25%;
+        left: 25%;
+        width: 50%;
+    }
+    .admin .img5 {
+        position: absolute;
+        left:20%;
+        top: 0%;
+        width: 70%;
+    }
+    .header {
+        position:absolute;
+        top: 0%;
+        left: 17%;
+        font-size: 26px;
+    }
+    .container {
+        position: absolute;
+        left: 20%;
+        top: 8%;
+        width: 77%;
+        height: 15%;
+    }
+    .totaluser h3 {
+        position: absolute;
+        left: 2%;
+        top: 75%;
+    }
+    .totaluser h2 {
+        position: absolute;
+        left: 10%;
+        top: 35%;
+        font-size: 35px;
+    }
+    .admin2 h3 {
+        position: absolute;
+        left: 33%;
+        top: 75%;
+    }
+    .admin2 h2 {
+        position: absolute;
+        left:  37%;
+        top: 35%;
+        font-size: 35px;
+    }
+    .support h3 {
+        position: absolute;
+        left: 53%;
+        top: 75%;
+    }
+    .support h2 {
+        position: absolute;
+        left: 60%;
+        top: 35%;
+        font-size: 35px;
+    }
+    .viewer h3 {
+        position: absolute;
+        left: 77%;
+        top: 75%;
+    }
+    .viewer h2 {
+        position: absolute;
+        left: 82%;
+        top: 35%;
+        font-size: 35px;
+    }
+    .table {
+       position: absolute;
+       top: 25%;
+       left: 23%;
+    }
+    th, td {
+        display: flex;
+        flex-wrap: wrap;
+        width: auto;
+        height: auto;
+      }
+    .active1 {
+        box-sizing: border-box;
+        width: 20%;
+        height: auto;
+    }
+    .active2 {
+        box-sizing: border-box;
+        width: 20%;
+        height: auto;
+    }
+    .disable1 {
+        box-sizing: border-box;
+        width: 20%;
+        height: auto;
+    }
+    .active3 {
+        box-sizing: border-box;
+        width: 20%;
+        height: auto;
+    }
+    .active4 {
+        box-sizing: border-box;
+        width: 20%;
+        height: auto;
+    }
+    .disable2 {
+        box-sizing: border-box;
+        width: 20%;
+        height: auto;
+    }
+    .active5 {
+        box-sizing: border-box;
+        width: 20%;
+        height: auto;
+    }
+    .active6 {
+        box-sizing: border-box;
+        width: 20%;
+        height: auto;
+    }
+    .disable3 {
+        box-sizing: border-box;
+        width: 20%;
+        height: auto;
+    }
+    .active7 {
+        box-sizing: border-box;
+        width: 20%;
+        height: auto;
+        
+    }
+}
+
